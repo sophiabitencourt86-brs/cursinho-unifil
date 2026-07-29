@@ -1,0 +1,26 @@
+h1{
+    color: rgb(194, 130, 126);
+}
+h2{
+    color: rgb(190, 80, 53);
+}
+body{
+    background-color: rgb(71, 8, 8);}
+    p{
+        color: aliceblue;
+    }
+    li{
+color: aliceblue;
+    }
+    h1{
+        border: 2px solid;
+    }
+    h2{
+        border: 2px solid;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
