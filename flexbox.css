@@ -1,0 +1,28 @@
+.conteiner{
+    border: 3px solid black;
+    height: 50vh;
+    display: flex;
+    
+
+}
+
+
+.azul{
+    background-color: rgb(20, 34, 117);
+    width: 60px;
+    height: 60px;
+}
+
+
+.rosa{
+    background-color: rgb(197, 13, 105);
+    width: 60px;
+    height: 60px;
+}
+
+
+.roxo{
+    background-color: rgb(54, 6, 87);
+    width: 60px;
+    height: 60px;
+}
