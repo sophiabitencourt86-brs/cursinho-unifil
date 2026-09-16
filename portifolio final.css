@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+    }
+    
+    .cabecalho {
+    display: flex;
+    background-color: #e9eb9c;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    }
+
+    #fotominha{
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+    }
+    
+    .links {
+    display: flex;
+    gap: 50px;
+    }
+    
+    a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    }
+    
+    #nome-loja {
+    color: rgb(167, 142, 0);
+    font-size: 30px;
+    }
+    
+    .banner {
+    background-color: #f8ee90;
+    background: linear-gradient(
+        120deg,
+        #f8ee90,
+        rgb(167, 142, 0)
+    );
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    border-radius: 50%;
+    }
+    
+    .banner h2 {
+    font-size: 40px;
+    }
+    
+    .botao {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(216, 196, 83);
+    cursor: pointer;
+    }
+    
+    .produto {
+    border: 2px solid rgb(236, 193, 2);
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    min-height: 300px;
+    transition: 0.5s;
+    }
+    
+    .produto p {
+    text-align: center;
+    }
+    
+    .produto img {
+    width: 200px;
+    height: 180px;
+    }
+    
+    .produto button {
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    }
+    
+    .produto button:hover {
+    transform: scale(1.01);
+    }
+    
+    .produto:hover {
+    transform: scale(1.01);
+    }
+    
+    .preco {
+    color: #2563eb;
+    font-weight: bold;
+    }
+    
+    .produtos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 0 auto;
+    }
+    
+    .catalogo {
+    padding: 60px 8%;
+    }
+    
+    .catalogo h2 {
+    text-align: center;
+    }
+    
+    .rodape {
+    background-color: #e2e1b1;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 8%;
+    }
+    
+    .rodape h3 {
+    color: #74753e;
+    }
+    
+    .rodape p {
+    color: rgb(107, 86, 18);
+    }
